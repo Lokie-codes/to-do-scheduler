@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-^l4$9vhnr5#o7vjbx#wda63m1weo9w$i_f$wjv-_#u305u#tkd
 DEBUG = True
 
 ALLOWED_HOSTS = []
+CSRF_TRUSTED_ORIGINS = ['https://8000-lokiecodes-todoschedule-djl5m9ky40a.ws-us72.gitpod.io']
 
 
 # Application definition
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'api',
     'rest_framework',
 ]
 
